@@ -6,7 +6,7 @@
 
 Project made on Stage 02 - Explorer
 
-[Acess Link 🔗](https://mth1221.github.io/stage-02-desafio/)
+[Acess Link 🔗](https://mth1221.github.io/stage-02-recriando-layout-explorer/)
 
 ## Tech 💻
 

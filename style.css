@@ -1,0 +1,168 @@
+/*Head*/
+ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+  padding: 0;
+
+  font-size: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+ul li a:hover {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 101px;
+}
+
+#logo, ul {
+  padding-bottom: 10px;
+}
+/*Body*/
+html {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+  background: #2C2B3D;
+  margin: 0;
+}
+
+.land {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 71px;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+
+  padding-left: 80px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+h1 span {
+  color: #00BFA6;
+}
+
+p {
+  font-size: 16px;
+  line-height: 23px;
+  padding-left: 80px;
+
+  color: #C2C2C2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p span {
+  color: #00BFA6;
+}
+
+p strong {
+  text-decoration:underline;
+  text-transform: capitalize;
+}
+
+/*Footer*/
+footer {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 80px;
+  
+  padding: 150px 15px 10px 0px;
+
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+
+footer a {
+  color: #00BFA6;
+  text-decoration:none;
+}
+
+footer span {
+  border-top: 1px solid #00BFA6;
+  padding: 27px;
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}
+
+footer {
+  animation: fromBottom .7s backwards;
+}
+
+/*Footer Icons*/
+.contact, .grow{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 20px;
+
+  transition: transform .3s;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}
+
+.grow {
+  animation: fromBottom .7s backwards;
+}
+
+/*Padlock icon*/
+#pad {
+  left: 20px;
+  bottom: 65px;
+  position: fixed;
+  opacity: 0.8;
+  transition: opacity 400ms;
+
+  animation: fromTop .7s backwards;
+}
+
+#pad:hover {
+ opacity: 1;
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translate(-40px);
+  }
+}
